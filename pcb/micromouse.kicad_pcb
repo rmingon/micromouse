@@ -115,7 +115,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../cam/")
+			(outputdirectory "cam/")
 		)
 	)
 	(net 0 "")
@@ -848,7 +848,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R14"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "04fc9fda-db10-49c2-878b-db2797e92536")
 			(effects
@@ -859,7 +859,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "b163e32c-2dd8-4d23-8664-db7e026bc78f")
 			(effects
@@ -1014,7 +1014,7 @@
 			(uuid "5365b2e2-7fca-4fa4-80c7-895ec70a1a02")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "1d5164a6-7b1d-4d36-a226-e09ebc28d110")
 			(effects
@@ -4442,7 +4442,7 @@
 		(descr "IR-ED, diameter 3.0mm, 2 pins, color: black")
 		(tags "IR infrared LED diameter 3.0mm 2 pins black")
 		(property "Reference" "D9"
-			(at 1.27 -2.96 360)
+			(at 1.27 -2.96 0)
 			(layer "F.SilkS")
 			(uuid "74e6126b-76f8-4adf-8998-35d931053228")
 			(effects
@@ -4453,7 +4453,7 @@
 			)
 		)
 		(property "Value" "TSAL4400"
-			(at 1.27 2.96 360)
+			(at 1.27 2.96 0)
 			(layer "F.Fab")
 			(uuid "041c6838-8ffc-4230-a9db-9509f71b7309")
 			(effects
@@ -4644,7 +4644,7 @@
 			(uuid "f40a80b4-fd5f-4fac-887e-ecfbaad06875")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.47 0 360)
+			(at 1.47 0 0)
 			(layer "F.Fab")
 			(uuid "fa1f1873-569e-4f50-98b9-2eabdcea790b")
 			(effects
@@ -6945,7 +6945,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "09cd1eda-46ae-4c7a-87a1-f7922d17d250")
 			(effects
@@ -6956,7 +6956,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "b81e260c-1b38-4204-828c-51929972f701")
 			(effects
@@ -7111,7 +7111,7 @@
 			(uuid "56af1332-690b-46c8-ae38-4326e0e461b8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ce293d8f-dd6f-4430-a450-d2f04a4d1af9")
 			(effects
@@ -7621,7 +7621,7 @@
 		(descr "IR-ED, diameter 3.0mm, 2 pins, color: black")
 		(tags "IR infrared LED diameter 3.0mm 2 pins black")
 		(property "Reference" "D11"
-			(at 4.025 3 360)
+			(at 4.025 3 0)
 			(layer "F.SilkS")
 			(uuid "426c0b52-2e79-4a81-864b-a8d99333a1d4")
 			(effects
@@ -7632,7 +7632,7 @@
 			)
 		)
 		(property "Value" "TSAL4400"
-			(at 1.27 2.96 360)
+			(at 1.27 2.96 0)
 			(layer "F.Fab")
 			(uuid "f8405db0-1131-4357-a83e-997695aef266")
 			(effects
@@ -7823,7 +7823,7 @@
 			(uuid "5a11da29-2816-476b-aa69-dbe20df45a9b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.47 0 360)
+			(at 1.47 0 0)
 			(layer "F.Fab")
 			(uuid "a549e314-1681-4020-a84a-4a78f73f1787")
 			(effects
@@ -7874,7 +7874,7 @@
 		(descr "IR-ED, diameter 3.0mm, 2 pins, color: black")
 		(tags "IR infrared LED diameter 3.0mm 2 pins black")
 		(property "Reference" "D10"
-			(at 2.275 3 360)
+			(at 2.275 3 0)
 			(layer "F.SilkS")
 			(uuid "d66bbf67-63ba-4cd0-baa6-16a0a50e5411")
 			(effects
@@ -7885,7 +7885,7 @@
 			)
 		)
 		(property "Value" "TSAL4400"
-			(at 1.27 2.96 360)
+			(at 1.27 2.96 0)
 			(layer "F.Fab")
 			(uuid "be255be8-6308-46c6-9af5-7df53f4d1fa4")
 			(effects
@@ -8076,7 +8076,7 @@
 			(uuid "acb2fc1e-bbd8-4bc6-b8ce-49058706f1db")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.47 0 360)
+			(at 1.47 0 0)
 			(layer "F.Fab")
 			(uuid "c4fee526-39bc-4bca-8dc6-06d8c3ee144d")
 			(effects
@@ -8127,7 +8127,7 @@
 		(descr "IR-ED, diameter 3.0mm, 2 pins, color: black")
 		(tags "IR infrared LED diameter 3.0mm 2 pins black")
 		(property "Reference" "D8"
-			(at 1.27 -2.96 360)
+			(at 1.27 -2.96 0)
 			(layer "F.SilkS")
 			(uuid "15828481-8964-42db-9469-8a2d115ecce3")
 			(effects
@@ -8138,7 +8138,7 @@
 			)
 		)
 		(property "Value" "TSAL4400"
-			(at 1.27 2.96 360)
+			(at 1.27 2.96 0)
 			(layer "F.Fab")
 			(uuid "1bcd0135-826f-4981-9057-c9584bef5715")
 			(effects
@@ -8329,7 +8329,7 @@
 			(uuid "7307fae3-2a17-4442-8d47-4b9d90a34677")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.47 0 360)
+			(at 1.47 0 0)
 			(layer "F.Fab")
 			(uuid "7f5c7a2c-291d-4b1d-a2d7-2c74a1878889")
 			(effects
@@ -11400,7 +11400,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "c66d2b36-f8ab-4342-87a9-095910108e86")
 			(effects
@@ -11411,7 +11411,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "dd25842a-ddd0-4368-821b-bc2eb00d11ef")
 			(effects
@@ -11566,7 +11566,7 @@
 			(uuid "b33eff55-60b0-44b8-88e5-c5dda3caf1a4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "52cb05e2-aa53-4a9f-8327-d456d7277eee")
 			(effects
@@ -12510,7 +12510,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "b25a24b2-10dc-4cae-94b9-2f0c9eff2c80")
 			(effects
@@ -12521,7 +12521,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "26a17d06-f358-4b32-9e66-62bfcadf0d42")
 			(effects
@@ -12676,7 +12676,7 @@
 			(uuid "86cdac92-d1c4-47f5-acc5-e3f393502901")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "bdd3f11c-868f-447c-a290-d5acd9161489")
 			(effects
